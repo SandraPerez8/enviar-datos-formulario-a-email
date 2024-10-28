@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(-225deg, #08f9b1 0%, #f10cc4 100%);
+    font-family: "vibur", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.form-content {
+    background: url(img/MONTAÑA.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    width: 1000px;
+    border-radius: 25px;
+}
+
+.form-content h2 {
+    color: #f4f6f9;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100x;
+}
+
+label {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+
+input, textarea {
+    padding: 17px 14px;
+    background-color: white;
+    border: 0;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+:focus {
+    outline: 1px solid aqua;
+    
+}
+
+.btn{
+    background-color: aqua;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(119, 119, 126);
+
+}
+
+/*responsive*/
+
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    .form-content {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+/* Follow */
+.social {
+    margin: 50px;
+       
+  }
+
+  .social p {
+    text-align: center;
+    font-size: 70px;
+    color: rgb(10, 9, 9);
+    margin: 10px;
+    
+    }
+    
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .links a {
+    margin: 0 30px;
+  }
+  
+  .links a i {
+    font-size: 7rem;
+    color: white;
+  }
+  
+  
